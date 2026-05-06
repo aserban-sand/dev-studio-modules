@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1",
+  "namespace": "initial-test",
+  "bundle": {
+    "name": "initialTestModule",
+    "exposes": "Widget",
+    "version": "1.0.0"
+  },
+  "icon": "component",
+  "title": {
+    "en": "Initial Test",
+    "fr": "Initial Test"
+  },
+  "description": {
+    "en": "Starter module for Initial Test",
+    "fr": "Starter module for Initial Test"
+  },
+  "menu": {
+    "groups": [
+      {
+        "id": "initial-test",
+        "sortOrder": 300,
+        "title": {
+          "en": "Initial Test",
+          "fr": "Initial Test"
+        }
+      }
+    ],
+    "items": [
+      {
+        "injectTo": "initial-test",
+        "sortOrder": 10,
+        "title": {
+          "en": "Open Initial Test",
+          "fr": "Open Initial Test"
+        },
+        "description": {
+          "en": "Open the Initial Test module",
+          "fr": "Open the Initial Test module"
+        },
+        "icon": "component",
+        "url": "/"
+      }
+    ]
+  }
+}

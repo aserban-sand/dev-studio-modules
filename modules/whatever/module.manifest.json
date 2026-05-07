@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1",
+  "namespace": "whatever",
+  "bundle": {
+    "name": "whateverModule",
+    "exposes": "Widget",
+    "version": "1.0.0"
+  },
+  "icon": "component",
+  "title": {
+    "en": "Whatever",
+    "fr": "Whatever"
+  },
+  "description": {
+    "en": "Starter module for Whatever",
+    "fr": "Starter module for Whatever"
+  },
+  "menu": {
+    "groups": [
+      {
+        "id": "whatever",
+        "sortOrder": 300,
+        "title": {
+          "en": "Whatever",
+          "fr": "Whatever"
+        }
+      }
+    ],
+    "items": [
+      {
+        "injectTo": "whatever",
+        "sortOrder": 10,
+        "title": {
+          "en": "Open Whatever",
+          "fr": "Open Whatever"
+        },
+        "description": {
+          "en": "Open the Whatever module",
+          "fr": "Open the Whatever module"
+        },
+        "icon": "component",
+        "url": "/"
+      }
+    ]
+  }
+}

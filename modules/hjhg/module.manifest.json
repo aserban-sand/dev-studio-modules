@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1",
+  "namespace": "hjhg",
+  "bundle": {
+    "name": "hjhgModule",
+    "exposes": "Widget",
+    "version": "1.0.0"
+  },
+  "icon": "component",
+  "title": {
+    "en": "Hjhg",
+    "fr": "Hjhg"
+  },
+  "description": {
+    "en": "Starter module for Hjhg",
+    "fr": "Starter module for Hjhg"
+  },
+  "menu": {
+    "groups": [
+      {
+        "id": "hjhg",
+        "sortOrder": 300,
+        "title": {
+          "en": "Hjhg",
+          "fr": "Hjhg"
+        }
+      }
+    ],
+    "items": [
+      {
+        "injectTo": "hjhg",
+        "sortOrder": 10,
+        "title": {
+          "en": "Open Hjhg",
+          "fr": "Open Hjhg"
+        },
+        "description": {
+          "en": "Open the Hjhg module",
+          "fr": "Open the Hjhg module"
+        },
+        "icon": "component",
+        "url": "/"
+      }
+    ]
+  }
+}
